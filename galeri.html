@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zümrüt Konuk Evi | Şanlıurfa Konuk Evi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="konukevi, şanlıurfa konuk evi, yöresel sıra geceleri, sıra gecesi mekanı"
+      name="keywords"
+    />
+    <meta
+      content="Şanlıurfa'da hizmet veren konuk evi ve sıra gecesi mekanı, en iyi sıra gecesi mekanı"
+      name="description"
+    />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- nav -->
+
+      <div class="container-xxl position-relative p-0">
+        <div class="container-xxl position-relative p-0">
+          <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
+          >
+            <a href="" class="navbar-brand p-0">
+              <h1 class="text-primary m-0">
+                <i class="fa fa-utensils me-3"></i>Zümrüt <br />
+                Konuk Evi
+              </h1>
+              <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0 pe-4">
+                <a href="index.html" class="nav-item nav-link active"
+                  >Anasayfa</a
+                >
+                <a href="about.html" class="nav-item nav-link">Hakkımızda</a>
+                <a href="service.html" class="nav-item nav-link">Konuk Evi</a>
+                <a href="menu.html" class="nav-item nav-link">Menü</a>
+                <a href="galeri.html" class="nav-item nav-link">Galeri</a>
+
+                <a href="contact.html" class="nav-item nav-link">İletişim</a>
+              </div>
+              <a href="" class="btn btn-primary py-2 px-4">Rezervasyon</a>
+            </div>
+          </nav>
+
+          <div class="container-xxl py-5 bg-dark hero-header mb-5">
+            <div class="container text-center my-5 pt-5 pb-4">
+              <h1 class="display-3 text-white mb-3 animated slideInDown">
+                Galeri
+              </h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center text-uppercase">
+                  <li class="breadcrumb-item">
+                    <a href="index.html">Anasayfa</a>
+                  </li>
+
+                  <li
+                    class="breadcrumb-item text-white active"
+                    aria-current="page"
+                  >
+                    Hakkımızda
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+          ><i class="bi bi-arrow-up"></i
+        ></a>
+      </div>
+      <!-- nav end -->
+      <!-- lightbox -->
+
+      <svg class="d-none" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="enlarge" viewBox="0 0 16 16">
+          <path
+            d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"
+          />
+        </symbol>
+        <symbol id="exit" viewBox="0 0 16 16">
+          <path
+            d="M5.5 0a.5.5 0 0 1 .5.5v4A1.5 1.5 0 0 1 4.5 6h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5zm5 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 10 4.5v-4a.5.5 0 0 1 .5-.5zM0 10.5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 6 11.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zm10 1a1.5 1.5 0 0 1 1.5-1.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4z"
+          />
+        </symbol>
+      </svg>
+
+      <h1 class="text-center mb-0">
+        Zümrüt Konuk Evi | Şanlıurfa Sıra Gecesi Mekanı
+      </h1>
+      <p class="text-center mb-4">Odalarımıza ve Konuk Evimize Göz Atın</p>
+
+      <section class="photo-gallery">
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gallery-grid"
+          >
+            <div class="col">
+              <a class="gallery-item" href="newimg/1.jpeg">
+                <img
+                  src="newimg/1.jpeg"
+                  class="img-fluid"
+                  alt="Lorem ipsum dolor sit amet"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/2.jpeg">
+                <img
+                  src="newimg/2.jpeg"
+                  class="img-fluid"
+                  alt="Ipsum lorem dolor sit amet"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/3.jpeg">
+                <img
+                  src="newimg/3.jpeg"
+                  class="img-fluid"
+                  alt="Dolor lorem ipsum sit amet"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/4.jpeg">
+                <img
+                  src="newimg/4.jpeg"
+                  class="img-fluid"
+                  alt="Sit amet lorem ipsum dolor"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/5.jpeg">
+                <img
+                  src="newimg/5.jpeg"
+                  class="img-fluid"
+                  alt="Aut ipsam deserunt nostrum quo"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/6.jpeg">
+                <img
+                  src="newimg/6.jpeg"
+                  class="img-fluid"
+                  alt="Nulla ex nihil eligendi tempora"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/7.jpeg">
+                <img
+                  src="newimg/7.jpeg"
+                  class="img-fluid"
+                  alt="Nemo perspiciatis voluptatum"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/2.jpeg">
+                <img
+                  src="newimg/2.jpeg"
+                  class="img-fluid"
+                  alt="Accusantium consequuntur modi"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a class="gallery-item" href="newimg/4.jpeg">
+                <img
+                  src="newimg/4.jpeg"
+                  class="img-fluid"
+                  alt="Dolore asperiores reprehenderit"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="modal fade lightbox-modal" id="lightbox-modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="btn-fullscreen-enlarge"
+              aria-label="Enlarge fullscreen"
+            >
+              <svg class="bi"><use href="#enlarge"></use></svg>
+            </button>
+            <button
+              type="button"
+              class="btn-fullscreen-exit d-none"
+              aria-label="Exit fullscreen"
+            >
+              <svg class="bi"><use href="#exit"></use></svg>
+            </button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="modal-body">
+              <div class="lightbox-content">
+                <!-- JS content here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- lightbox end -->
+
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+              >
+                Zümrüt Konuk Evi
+              </h4>
+              <a class="btn btn-link" href="about.html">Hakkımızda</a>
+              <a class="btn btn-link" href="contact.html">İletişim</a>
+              <a class="btn btn-link" href="">Rezervasyon</a>
+              <a class="btn btn-link" href="">Gizlilik Politikası</a>
+              <a class="btn btn-link" href="">Çerezler</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+              >
+                İletişim
+              </h4>
+              <p class="mb-2">
+                <i class="fa fa-map-marker-alt me-3"></i>Beykapısı mahallesi,
+                933. Sk. No:36 D:1, 63210 Eyyübiye/Şanlıurfa
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-phone-alt me-3"></i>+90 507 580 34 63
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope me-3"></i>zumrut63konukevi@gmail.com
+              </p>
+              <div class="d-flex pt-2">
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/zumrutkonukevi/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+              >
+                Çalışma Saatleri
+              </h4>
+              <h5 class="text-light fw-normal">Haftaiçi - Haftasonu</h5>
+              <p>10:00 - 00:00</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4
+                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+              >
+                Gelişmeler
+              </h4>
+              <p>
+                Gelişmelerden haberdar olmak için mail adresinizi
+                bırakabilirsiniz
+              </p>
+              <div class="position-relative mx-auto" style="max-width: 400px">
+                <input
+                  class="form-control border-primary w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Mail Adresiniz"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  Gönder
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Zümrüt Konuk Evi</a>,
+                Tüm Hakları Saklıdır
+
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed By
+                <a class="border-bottom" href="https://vkreklam.com"
+                  >VK Creative Studio</a
+                >
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <div class="footer-menu">
+                  <a href="index.html">Anasayfa</a>
+                  <a href="about.html">Hakkımızda</a>
+                  <a href="">Menü</a>
+                  <a href="">İletişim</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
